@@ -75,18 +75,19 @@
   }
 }
 
-.primary-bg {
-  background-color: #0c0032;
+.menu-link {
+  @apply hover:text-fourth transition-all duration-100 ease-in;
 }
 
-.secondary-bg {
+.hero-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),
+    url("/herobg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #190061;
 }
 
-.third-bg {
-  background-color: #240090;
-}
-
-.fourth-bg {
-  background-color: #3500d3;
+.custom-shadow {
+  box-shadow: 0px 9px 30px rgba(5, 163, 255, 0.174);
 }
