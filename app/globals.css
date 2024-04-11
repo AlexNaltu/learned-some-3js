@@ -91,3 +91,11 @@
 .custom-shadow {
   box-shadow: 0px 9px 30px rgba(5, 163, 255, 0.174);
 }
+
+.contact-form {
+  @apply bg-transparent placeholder:text-white placeholder:text-lg border-b-2 border-white my-2 sm:my-4 focus:outline-none text-base lg:text-lg;
+}
+
+.social-icon {
+  @apply cursor-pointer hover:text-fourth transition-all duration-100 ease-in;
+}

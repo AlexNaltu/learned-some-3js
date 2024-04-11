@@ -19,7 +19,7 @@ const Hero = ({ children }) => {
   }
   return (
     <div>
-      <div className="w-full flex flex-col items-center gap-16 sm:gap-24 text-3xl pt-6 bg-secondary hero-bg h-screen text-white">
+      <div className="w-full flex flex-col items-center gap-12 text-3xl  pt-6 bg-secondary hero-bg h-screen text-white">
         <h1>A</h1>
         <div className="max-w-screen-xl px-4 ">{children}</div>
         <div className="self-start sm:pl-20 text-4xl sm:text-6xl md:pl-36 uppercase font-bold welcome-text">

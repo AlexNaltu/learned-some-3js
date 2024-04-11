@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/" className="menu-link">
             <HiMiniSquare3Stack3D size={30} />
           </Link>
-          <Link href="/" className="menu-link">
+          <Link href="/contact" className="menu-link">
             <BiSolidContact size={30} />
           </Link>
           <Link href="/" className="menu-link">
